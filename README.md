@@ -16,11 +16,12 @@ $ ./a.out 1 3 9 19
 The second difference is: 4
 4 divided by 2 = 2
 Thus 2n(squared)
-|2n(squared)	    |Sequence	   |Difference	  |
-|2		          |1		      |-1		      |
-|8		          |3		      |-5		      |
-|18		         |9		      |-9		      |
-|32		         |19		     |-13		     |
+|2n(squared)	|Sequence	|Difference	|
+|2		|1		|-1		|
+|8		|3		|-5		|
+|18		|9		|-9		|
+|32		|19		|-13		|
+
 Thus: -1, -5, -9, -13,
 Difference: -4
 Tn=-4n+3
