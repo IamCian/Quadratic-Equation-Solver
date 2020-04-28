@@ -9,7 +9,7 @@ See [https://choosealicense.com/licenses/mit/](https://choosealicense.com/licens
 ```console
 $ quadeq --help
 Usage: quadeq [-w show_workings] TERMS
-Get the Nth term for a quadratic sequence in the form Tn=Xn^2-Xn-X
+Get the Nth term for a quadratic sequence
 Example: quadeq -w 1 3 9 19
 $ quadeq 1 3 9 19
 Tn=2n^2-4n+3

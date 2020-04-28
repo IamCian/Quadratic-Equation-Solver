@@ -9,7 +9,7 @@
 
 int is_int(char* str);
 
-/* quadeq: get equation from a quadratic sequence in the form Tn=Xn^2-Xn-X */
+/* quadeq: Gets the Nth term for a quadratic sequence */
 int main (int argc, char* argv[]) {
   int i;              /* index variable */
   int terms[BUFFER];  /* list of terms */
@@ -29,7 +29,7 @@ int main (int argc, char* argv[]) {
       case 'w': workings=1;continue;
       default:
         if (strcmp(argv[i], "--help")==0){  /* help option */
-          printf("Usage: quadeq [-w show_workings] TERMS\nGet the Nth term for a quadratic sequence in the form Tn=Xn^2-Xn-X\nExample: quadeq -w 1 3 9 19\n"); return 0;
+          printf("Usage: quadeq [-w show_workings] TERMS\nGet the Nth term for a quadratic sequence\nExample: quadeq -w 1 3 9 19\n"); return 0;
         }
         else {printf("Usage: quadeq [-w show_workings] TERMS\nTry 'quadeq --help' for more information.\n"); return 1;} /* unknown argument */
     }
